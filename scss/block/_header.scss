@@ -1,0 +1,125 @@
+@import "./variables";
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        .nav {
+            background-image: url(../img/backraund-tablaet.jpg);
+        }
+        .box {
+            display: flex;
+        }
+        .box1 {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: space-between !important;
+        }
+    }
+}
+
+nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    padding: 22px 0;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.box1__ul {
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+    margin-left: -330px;
+    list-style: none;
+    color: #939caa;
+    cursor: pointer;
+    font-family: $primary-fonts;
+}
+
+.box__btn {
+    width: 180px;
+    height: 53px;
+    background-color: $primary-color;
+    font-family: $primary-fonts;
+    border: none;
+    color: $secondary-color;
+}
+
+.box__btn:hover {
+    width: 180px;
+    height: 53px;
+    background-color: $secondary-color;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.block {
+    background-image: url(../img/bacraund.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.block__h2 {
+    width: 600px;
+    height: 112px;
+    font-family: $primary-fonts;
+    font-size: 56px;
+    color: $secondary-color;
+    padding-top: 153px;
+    padding-left: 0px;
+}
+
+.block__text {
+    width: 400px;
+    height: 100px;
+    padding-top: 170px;
+    padding-bottom: 100px;
+    color: $secondary-color;
+    margin-left: 100px;
+}
+
+.block__btn {
+    width: 180px;
+    height: 53px;
+    background-color: $primary-color;
+    font-family: $primary-fonts;
+    border: none;
+    color: $secondary-color;
+    margin-left: 100px;
+    margin-bottom: 152px;
+}
+
+.block__btn:hover {
+    width: 180px;
+    height: 53px;
+    background-color: #48576c;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        .nav {
+            background-image: url(../img/backraund-tablaet.jpg);
+        }
+        .box {
+            display: flex;
+        }
+        .box1 {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: space-between !important;
+        }
+    }
+}

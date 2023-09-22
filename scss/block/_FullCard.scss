@@ -1,0 +1,295 @@
+@import "./variables";
+.FullCard {
+    display: block;
+}
+
+.line__left {
+    margin-top: 208px;
+}
+
+.locate__card {
+    display: flex;
+}
+
+.locatecard__left {
+    margin-top: -65px;
+    margin-right: 30px;
+}
+
+.locate__card-left-h2 {
+    margin-top: 100px;
+    margin-bottom: 27px;
+    font-family: $primary-fonts;
+}
+
+.locatecard__left-text {
+    width: 370px;
+    size: 15px;
+    color: #939caa;
+    font-family: $primary-fonts;
+}
+
+.scootercard__center {
+    margin-top: -65px;
+    margin-right: 30px;
+}
+
+.scootercard__center-h2 {
+    margin-top: 100px;
+    margin-bottom: 27px;
+    font-family: $primary-fonts;
+}
+
+.scootercard__center-text {
+    width: 370px;
+    size: 15px;
+    color: #939caa;
+    font-family: $primary-fonts;
+}
+
+.Enjoycard__right {
+    margin-top: -65px;
+}
+
+.Enjoycard__right-h2 {
+    margin-top: 30px;
+    margin-bottom: 27px;
+    font-family: $primary-fonts;
+}
+
+.Enjoycard__right-text {
+    width: 370px;
+    size: 15px;
+    color: #939caa;
+    font-family: $primary-fonts;
+}
+
+.line-top {
+    display: none;
+}
+
+.easy {
+    display: flex;
+    padding-top: 200px;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.easy__left h2 {
+    width: 300px;
+    color: #495567;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.1428570747px;
+    text-align: left;
+}
+
+.easy__left h4 {
+    width: 445px;
+    font-family: $primary-fonts;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 24px 0 40px 0;
+    color: #939caa;
+}
+
+.easy__left button {
+    background-color: $primary-color;
+    font-family: $primary-fonts;
+    border: none;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 53px;
+    color: #fff;
+}
+
+.easy__left button:hover {
+    background-color: #fff;
+    font-family: $primary-fonts;
+    border: 1px solid $primary-color;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 53px;
+    color: $primary-color;
+}
+
+.easy__right {
+    margin-top: -380px;
+}
+
+.coming {
+    display: flex;
+    -moz-column-gap: 220px;
+    column-gap: 220px;
+    margin-top: 70px;
+    padding-top: 155px;
+    align-items: center;
+}
+
+.coming__right h2 {
+    width: 350px;
+    color: #495567;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.1428570747px;
+    text-align: left;
+}
+
+.coming__right h4 {
+    width: 445px;
+    font-family: $primary-fonts;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 24px 0 40px 0;
+    color: #939caa;
+}
+
+.coming__right button {
+    background-color: $primary-color;
+    font-family: $primary-fonts;
+    border: none;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 53px;
+    color: #fff;
+}
+
+.coming__right button:hover {
+    background-color: #fff;
+    font-family: $primary-fonts;
+    border: 1px solid $primary-color;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 53px;
+    color: $primary-color;
+}
+
+.zero {
+    display: flex;
+    padding-top: 200px;
+    align-items: center;
+    margin-left: 600px;
+}
+
+.zero__left {
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+}
+
+.zero__left h2 {
+    color: #495567;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.1428570747px;
+    text-align: left;
+}
+
+.zero__left h4 {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 24px 0 40px 0;
+    color: #939caa;
+}
+
+.zero__left button {
+    background-color: $primary-color;
+    font-family: $primary-fonts;
+    border: none;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 53px;
+    color: #fff;
+}
+
+.zero__left button:hover {
+    background-color: #fff;
+    font-family: $primary-fonts;
+    border: 1px solid $primary-color;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 53px;
+    color: $primary-color;
+}
+
+.sign {
+    font-family: $primary-fonts;
+    margin-top: 270px;
+    background-size: cover;
+    background-position: center;
+    padding: 102px 0;
+    background-color: #485567;
+}
+
+.sign__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sign h2 {
+    width: 400n px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.1428570747px;
+    text-align: left;
+    max-width: 415px;
+}
+
+.sign__store {
+    display: flex;
+    -moz-column-gap: 18px;
+    column-gap: 18px;
+}
